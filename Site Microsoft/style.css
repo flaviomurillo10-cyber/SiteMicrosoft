@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #222;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0078D4;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+nav {
+    background-color: white;
+    text-align: center;
+    padding: 18px;
+    border-bottom: 4px solid #7FBA00;
+}
+
+nav a {
+    color: #0078D4;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #F25022;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ccc;
+}
+
+h2 {
+    color: #0078D4;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 15px 0;
+    border-left: 6px solid #F25022;
+}
+
+.card:nth-child(3) {
+    border-left-color: #7FBA00;
+}
+
+.card:nth-child(4) {
+    border-left-color: #FFB900;
+}
+
+.timeline div {
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 5px solid #0078D4;
+    background-color: #f9f9f9;
+}
+
+.timeline div:nth-child(2) {
+    border-left-color: #F25022;
+}
+
+.timeline div:nth-child(3) {
+    border-left-color: #7FBA00;
+}
+
+.timeline div:nth-child(4) {
+    border-left-color: #FFB900;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.produto {
+    flex: 1;
+    min-width: 200px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.produto:nth-child(1) {
+    border-top: 5px solid #0078D4;
+}
+
+.produto:nth-child(2) {
+    border-top: 5px solid #F25022;
+}
+
+.produto:nth-child(3) {
+    border-top: 5px solid #7FBA00;
+}
+
+.produto:nth-child(4) {
+    border-top: 5px solid #FFB900;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.video{display: flex;
+justify-content: center;}
